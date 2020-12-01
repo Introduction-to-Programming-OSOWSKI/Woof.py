@@ -7,10 +7,10 @@ import datetime;
 
 year = 2020
 month = 12
-day = 1
+day = 15
 
 def test_code():
-    assert 0 > 1, "error"
+    assert main.woof() == "Woof", "function woof() did not return 'Woof'. Did you miss a capital letter?"
 
 def test_late():
     assert datetime.datetime.now() < datetime.datetime(year, month, day + 1, 4, 0), "Submitted Late"
