@@ -6,8 +6,8 @@ import main;
 import datetime;
 
 year = 2021
-month = 3
-day = 25
+month = 9
+day = 24
 
 def test_code():
     assert main.woof() == "Woof", "function woof() did not return 'Woof'. Did you miss a capital letter?"
